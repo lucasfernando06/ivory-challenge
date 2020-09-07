@@ -1,7 +1,7 @@
 # ~ React Issues - Ivory ~
 Projeto simples para exibir as issues em uma tabela
 
-[Acesse a DEMO](https://lfmemorygame.firebaseapp.com/)
+[Acesse a DEMO](https://lf-ivory-react.vercel.app/)
 ##### Tecnologias:
 - Next JS (HTML, CSS, JS, React Semantic-UI);
 ##### Screenshots
