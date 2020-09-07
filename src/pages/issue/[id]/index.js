@@ -3,8 +3,8 @@ import { Container, Grid } from 'semantic-ui-react';
 import api from '../../../services/api';
 import goHome from '../../../utils/goHome';
 import Page from '../../../components/Page';
-import User from '../../../Issue/User';
-import Text from '../../../Issue/Text';
+import User from '../../../components/Issue/User';
+import Text from '../../../components/Issue/Text';
 
 const IssueData = ({ colors, data }) => {
   // convertendo a string formatada em objeto
