@@ -10,9 +10,9 @@ const colors = {
   background: '#f0f0f0',
 };
 
-function MyApp({ Component, pageProps }) {
+const MyApp = ({ Component, pageProps }) => {
   // passando as props para o componente (página) chamado
   return <Component {...pageProps} colors={colors} />;
-}
+};
 
 export default MyApp;

@@ -1,10 +1,10 @@
 import React from 'react';
 import { Card, Divider } from 'semantic-ui-react';
 import ReactMarkdown from 'react-markdown';
-import Date from '../../../../utils/moment';
+import Date from '../utils/moment';
 
 // Componente para exibição dos dados simples da issue. Contém markdown.
-function Text({ issue }) {
+const Text = ({ issue }) => {
   return (
     <Card className="card">
       <Card.Content className="flexColumn">
@@ -19,6 +19,6 @@ function Text({ issue }) {
       </Card.Content>
     </Card>
   );
-}
+};
 
 export default Text;

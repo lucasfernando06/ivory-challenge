@@ -3,10 +3,10 @@ import { Container, Grid } from 'semantic-ui-react';
 import api from '../../../services/api';
 import goHome from '../../../utils/goHome';
 import Page from '../../../components/Page';
-import User from './components/User';
-import Text from './components/Text';
+import User from '../../../Issue/User';
+import Text from '../../../Issue/Text';
 
-function IssueData({ colors, data }) {
+const IssueData = ({ colors, data }) => {
   // convertendo a string formatada em objeto
   const issue = data ? JSON.parse(data) : {};
 
@@ -26,7 +26,7 @@ function IssueData({ colors, data }) {
       </Container>
     </Page>
   );
-}
+};
 
 // obtendo os dados da issue pelo server side, então a página será carregada após o retorno do método
 export async function getServerSideProps(ctx) {

@@ -11,7 +11,7 @@ import {
 import Link from 'next/link';
 
 // Componente para exibição do user da issue
-function User({ colors, user }) {
+const User = ({ colors, user }) => {
   // ref utilizada para controle do sticky effect
   const sitckyRef = useRef();
 
@@ -70,6 +70,6 @@ function User({ colors, user }) {
       </Rail>
     </Ref>
   );
-}
+};
 
 export default User;
